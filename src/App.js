@@ -14,10 +14,10 @@ import './App.css';
 //function to receive user input imageURL -> convert to JSON request
 const returnClarifaiRequestOptions = (imageURL) => {
   // Your PAT (Personal Access Token) can be found in the portal under Authentification
-  const PAT = 'b348af3126e242aa9184c9815391bd28';
+  const PAT = '(hid PAT key)';
   // Specify the correct user_id/app_id pairings
   // Since you're making inferences outside your app's scope
-  const USER_ID = 'loj1';       
+  const USER_ID = '(hid username)';       
   const APP_ID = 'my-first-application';
   // Change these to whatever model and image URL you want to use
   const MODEL_ID = 'face-detection';  
