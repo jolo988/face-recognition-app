@@ -1,2 +1,7 @@
 # face-recognition-app
 
+
+
+#Dependencies:
+
+
