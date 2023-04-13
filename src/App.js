@@ -9,8 +9,6 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import './App.css';
 
-
-
 //function to receive user input imageURL -> convert to JSON request
 const returnClarifaiRequestOptions = (imageURL) => {
   // Your PAT (Personal Access Token) can be found in the portal under Authentification
