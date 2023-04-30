@@ -149,23 +149,3 @@ app.put('/image', (req, res) => {
 app.listen(8081, () => {
     console.log('app is running on port 8081')
 });
-
-
-/*
-ROUTES TO WORK ON
-/ --> res = this is working
-
-/signin -> POST / res: success,fail
-(using JSON body to send sensitive data/pw)
-
-/register -> POST / res: return new created user
-(add user info to database or variable in server)
-
-/profile/:userID -> GET / res: return user
-entering /: allows user to enter any number in browser to grab ID via request.params
-(user profile w/ optional ID -> so each user has unique homescreen)
-
-/image -> PUT -> return user or count/score
-(when posting photo, need to change count of submitted photos)
-(PUT bc updated score/count)
-*/
